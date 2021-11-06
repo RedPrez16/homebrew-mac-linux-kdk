@@ -13,7 +13,7 @@ class MacLinuxKdk < Formula
   depends_on "openssl@1.1"
 
   def install
-    libexec.install Dir["*"]
     bin.install Dir["bin/*"]
+    libexec.install Dir["*"]
   end
 end
