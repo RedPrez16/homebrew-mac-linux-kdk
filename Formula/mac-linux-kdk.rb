@@ -1,10 +1,10 @@
 class MacLinuxKdk < Formula
   desc "Linux Kernel Development Kit for macOS"
   homepage "https://github.com/SpinlockLabs/mac-linux-kdk"
-  version "2021.11.05-8192041c2c"
+  version "2021.11.05-7cf9dfd"
 
-  url "https://github.com/SpinlockLabs/mac-linux-kdk/archive/8192041c2cd1a5f31ff1b0663a6b8be4f42c207a.zip"
-  sha256 "db745202ef72842dc8b9b6b792c82b2398c44fcce41a972610b0c963976061bc"
+  url "https://github.com/SpinlockLabs/mac-linux-kdk/archive/7cf9dfd65637e0af1cc52730d025f76523996407.zip"
+  sha256 "247291c1acb0a5d8dbe2d7321838f0c093c57f965f8fa4a6d3ae3836b7e24c88"
   license "LGPL-3.0-or-later" => { with: "LGPL-3.0-linking-exception" }
 
   depends_on "llvm"
